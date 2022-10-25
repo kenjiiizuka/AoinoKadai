@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\ps,vs">
+      <UniqueIdentifier>{6cf256af-4993-4e87-b5b6-6d345f5d3d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Texture">
+      <UniqueIdentifier>{c2ccfb84-1aa4-4547-82d6-a13e1cef3afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\direct3d">
+      <UniqueIdentifier>{f77c6c96-fd0e-4088-bb1e-26afc68bddcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CInput">
+      <UniqueIdentifier>{9add7925-8a16-4c1b-b734-c859c17722c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FPS">
+      <UniqueIdentifier>{6d1def45-b1ff-426d-954c-21b8f557cf93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="direct3d.cpp">
+      <Filter>ソース ファイル\direct3d</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>ソース ファイル\CInput</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRateCalculator.cpp">
+      <Filter>ソース ファイル\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>ソース ファイル\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Texture.h">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="direct3d.h">
+      <Filter>ソース ファイル\direct3d</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>ソース ファイル\CInput</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRateCalculator.h">
+      <Filter>ソース ファイル\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>ソース ファイル\FPS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ps.hlsl">
+      <Filter>ソース ファイル\ps,vs</Filter>
+    </FxCompile>
+    <FxCompile Include="vs.hlsl">
+      <Filter>ソース ファイル\ps,vs</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
